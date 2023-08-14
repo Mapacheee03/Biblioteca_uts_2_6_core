@@ -110,7 +110,7 @@ namespace Biblioteca_uts.Datos
 
                     cmd.Parameters.AddWithValue("Identificador", model.Identificador);
                     cmd.Parameters.AddWithValue("Fecha_prestamo", model.Fecha_prestamo);
-                    cmd.Parameters.AddWithValue("Fecha_devolucion", model.Fecha_prestamo);
+                    cmd.Parameters.AddWithValue("Fecha_devolucion", model.Fecha_devolucion);
                     cmd.Parameters.AddWithValue("No_Adquisicion", model.No_Adquisicion);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.ExecuteNonQuery();
