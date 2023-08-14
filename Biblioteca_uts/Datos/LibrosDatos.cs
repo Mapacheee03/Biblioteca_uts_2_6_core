@@ -88,7 +88,7 @@ namespace Biblioteca_uts.Datos
                     cmd.Parameters.AddWithValue("Clasificacion", model.Clasificacion);
                     cmd.Parameters.AddWithValue("No_Estante", model.No_Estante);
                     cmd.Parameters.AddWithValue("Cantidad", model.Cantidad);
-                    cmd.Parameters.AddWithValue("Estatus", model.Estatus);
+                    cmd.Parameters.AddWithValue("Estatus", "Disponible");
                     cmd.Parameters.AddWithValue("Procedencia", model.Procedencia);
                     cmd.Parameters.AddWithValue("No_factura", model.No_factura);
                     cmd.CommandType = CommandType.StoredProcedure;
